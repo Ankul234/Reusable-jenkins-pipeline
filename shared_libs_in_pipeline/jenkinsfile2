@@ -1,6 +1,4 @@
-library identifier: 'Jenkins_Pipeline_Shared_Libs@main',
-        retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/Ankul234/Jenkins-pipeline-shared-libraries.git'])
-
+@Library('Jenkins-pipeline-shared-libraries') _
 pipeline {
     agent any
     stages {
